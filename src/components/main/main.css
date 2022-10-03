@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  margin-top: 30px;
+}
+.main_list {
+  width: 30%;
+}
+.text_list {
+  margin-top: 5px;
+  border-bottom: 1px solid black;
+}
+button {
+  width: 80%;
+  height: 30px;
+  background-color: Aqua;
+  border-radius: 5px;
+  border: solid aqua;
+}
+.product_map {
+  width: 100%;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.product_map img {
+  height: 200px;
+}
+.icon {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
